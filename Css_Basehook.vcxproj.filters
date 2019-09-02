@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Hook.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Render.cpp" />
+    <ClCompile Include="CHook.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="Font.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreBoard.cpp">
+      <Filter>Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.cpp">
+      <Filter>Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EventMessage.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="KillMark.cpp">
+      <Filter>Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerUi.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="detours.h" />
+    <ClInclude Include="HL2_SDK.h" />
+    <ClInclude Include="Hook.h" />
+    <ClInclude Include="Render.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="CHook.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="VMethod.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="Font.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ISBObject.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreBoard.h">
+      <Filter>Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KillMark.h">
+      <Filter>Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerUi.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{caeea498-c2f3-436d-9fd6-20be987e1499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hud">
+      <UniqueIdentifier>{3c063c46-375d-4db3-8eb6-bbb924e80448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{1335ea65-bc43-4b40-a44b-50bee6641d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{be8bb83b-c094-455f-a812-e53d6902498f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
