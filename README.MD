@@ -11,10 +11,14 @@
 - Scoreboard example
 - Player ui example
 - Using message to control by plugin (EventMessage.cpp->HookEventMessage_2)
-## Usage
-Build with visual studio 2010 or late
 
-Using dllinject tool (below)
+## Usage
+1. Download HL2SDK2 in valve and copy to project folder
+2. Rename HL2SDK2 folder to SDK
+
+3. Build with visual studio 2010 or later
+
+4. Using dllinject tool (below)
 ```C
 #undef UNICODE
 #include <iostream>
