@@ -11,7 +11,7 @@
 - Scoreboard example
 - Player ui example
 - Using message to control by plugin (EventMessage.cpp->HookEventMessage_2)
-
+- Example plugin (Hook, Mode TeamDM)
 ## Usage
 1. Download HL2SDK2 in valve and copy to project folder
 2. Rename HL2SDK2 folder to SDK
