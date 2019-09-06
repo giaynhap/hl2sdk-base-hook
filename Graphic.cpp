@@ -120,7 +120,10 @@ Graphic::~Graphic()
 }
   long Graphic::genNewId()
   {
-	  if (Graphic::currentID == 0) Graphic::currentID = 254279700;
+	  if (Graphic::currentID == 0)
+	  {
+		  Graphic::currentID = 254279700;
+	  }
 			 Graphic::currentID += 1;
 	  return Graphic::currentID;
   }
