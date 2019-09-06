@@ -123,8 +123,8 @@ DWORD WINAPI HookThread( LPVOID lpParams )
 	return 0;
 }
 
-void hook(){
-
+void gn_hook_init(){
+	LogWriter("CallHook init");
 }
 
 BOOL APIENTRY DllMain( HMODULE hModule, DWORD dwReason, LPVOID lpReserved )

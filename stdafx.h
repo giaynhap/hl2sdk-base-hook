@@ -135,6 +135,6 @@ typedef struct {
 #else
 #define GNHOOOK_API __declspec(dllimport)
 #endif
-extern "C" GNHOOOK_API  void hook();
+extern "C" GNHOOOK_API  void gn_hook_init();
 
 #endif
