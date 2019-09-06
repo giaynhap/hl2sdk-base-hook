@@ -23,8 +23,7 @@ void KillMark::prepare()
 	Graphic::createImage("hud/killmark/badge_multi6", killMarks[5]);
 	Graphic::createImage("hud/killmark/FIRSTKILL", killMarks[6]);
 	Graphic::createImage("hud/killmark/badge_headshot", killMarks[7]);
-
-	killEffect
+ 
 }
 void KillMark::Render()
 {

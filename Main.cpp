@@ -123,6 +123,10 @@ DWORD WINAPI HookThread( LPVOID lpParams )
 	return 0;
 }
 
+void hook(){
+
+}
+
 BOOL APIENTRY DllMain( HMODULE hModule, DWORD dwReason, LPVOID lpReserved )
 {
 	if( dwReason == DLL_PROCESS_ATTACH )

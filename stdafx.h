@@ -130,5 +130,11 @@ typedef struct {
 #include "ScoreBoard.h"
 #include "KillMark.h"
 
+#ifdef GNHOOOK_API
+#define GNHOOOK_API __declspec(dllexport)
+#else
+#define GNHOOOK_API __declspec(dllimport)
+#endif
+extern "C" GNHOOOK_API  void hook();
 
 #endif
